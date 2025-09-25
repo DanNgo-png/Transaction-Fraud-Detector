@@ -20,7 +20,10 @@ A client-side web tool for identifying potentially fraudulent or anomalous trans
 ## How to Use
 
 1.  **Open the Application:** Simply open the `index.html` file in any modern web browser (e.g., Chrome, Firefox, Edge).
-
+    * Open Google Chrome
+    * Press `CTRL + O`
+    * A window opens
+    * Navigate to your destination folder and click on your `.html` file
 2.  **Provide Your Data:**
     *   **Option A: Drag and Drop an Excel File**
         *   Drag your Excel file and drop it onto the designated drop zone. The tool will read the first sheet and convert its contents into the JSON text area.
@@ -53,7 +56,7 @@ The tool expects data to be an array of JSON objects. Each object represents a t
 
 ## Technologies Used
 
-*   **HTML5, CSS3, JavaScript (ES6+)**
+*   **HTML5, CSS3, JavaScript**
 *   **SheetJS/xlsx:** For parsing and reading Excel files in the browser.
 
 ---
